@@ -1,0 +1,269 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* navigasi Bar */
+.container {
+  position: relative;
+  max-width: 1000px;
+  height: 1550px;
+  background-image: url(img/6.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: auto;
+  z-index: 1;
+}
+
+.conavbar {
+  position: relative;
+  width: 450px;
+  border: 5px;
+  margin-left: 52%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  top: 2%;
+}
+
+.conavbar a {
+  text-decoration: none;
+  color: black;
+}
+
+.navbar .conavbar a:hover {
+  color: rgb(90, 90, 90);
+}
+.conavbar div {
+  margin: 2px;
+  padding: 5px;
+  font-weight: bold;
+}
+
+.cojudul {
+  position: absolute;
+  width: 188px;
+  border: 5px;
+  margin-left: 5%;
+  padding: 5px;
+  box-sizing: border-box;
+  border-radius: 5px;
+  display: flex;
+  text-align: center;
+  top: -1px;
+}
+
+.cojudul div {
+  margin: 2px;
+  padding: 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.navbar {
+  position: fixed;
+  z-index: 9999;
+  top: 0;
+  height: 45px;
+  width: 1000px;
+  background-color: #6793a6;
+}
+/* akhir Navigasi Bar */
+
+/* Hero */
+.hero {
+  height: 600px;
+  background-image: url(img/b4.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  border: 5px solid #6793a6;
+}
+
+.hero h1 {
+  width: 210px;
+  margin: 160px auto;
+  border: 10px;
+  background-color: rgb(240, 248, 255, 0.3);
+  border-radius: 10px;
+  padding: 5px;
+  box-sizing: border-box;
+  text-align: center;
+  font-family: 'Pacifico', cursive;
+}
+
+.hero img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-left: 400px;
+  margin-top: -120px;
+  border: 2px solid #6793a6;
+}
+
+/* Akhit Hero */
+
+/* konten */
+
+.konten-about #aboutme {
+  width: 145px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+  color: bisque;
+  margin: -20px auto;
+  font-size: 25px;
+}
+
+.konten-about .isi {
+  width: 900px;
+  background-color: #6793a6;
+  text-align: center;
+  margin: 23px auto;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+#skill-h1 {
+  width: 90px;
+  color: cornsilk;
+  margin-top: -40px;
+  margin-left: 280px;
+  font-size: 25px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.konten-skill .isi-skill {
+  width: 180px;
+  background-color: #6793a6;
+  font-size: 18px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 5px;
+  font-family: 'Noto Serif', sans-serif;
+}
+
+#other-h1 {
+  width: 180px;
+  color: bisque;
+  margin-top: -83px;
+  margin-left: 578px;
+  font-size: 25px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.konten-other .isi-otherskill {
+  width: 180px;
+  background-color: #6793a6;
+  font-size: 18px;
+  padding: 10px 10px 10px 30px;
+  border-radius: 5px;
+  font-family: 'Noto Serif', sans-serif;
+}
+
+.con-skill-other {
+  width: 560px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+#mycf-h1 {
+  position: absolute;
+  width: 250px;
+  color: bisque;
+  top: 1030px;
+  left: 335px;
+  font-size: 25px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+}
+
+.konten-mycf {
+  position: absolute;
+  z-index: -9999;
+
+  width: 440px;
+  height: 220px;
+  left: 300px;
+  top: 1090px;
+}
+.konten-mycf .table {
+  font-family: 'Noto Serif', sans-serif;
+  border-collapse: collapse;
+  font-weight: bold;
+}
+
+.konten-mycf tr td {
+  padding: 12px 25px;
+  text-align: center;
+}
+
+.atas {
+  background: #6793a6;
+}
+
+.tengah1 {
+  background: blanchedalmond;
+}
+
+.tengah2 {
+  background: blanchedalmond;
+}
+
+.bawah {
+  background: blanchedalmond;
+}
+
+#mycf-h1 {
+  width: 250px;
+  color: bisque;
+  margin-top: -30px;
+  margin-left: 32px;
+  font-size: 25px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+#contact-h1 {
+  width: 140px;
+  color: bisque;
+  margin-top: 230px;
+  margin-left: 417px;
+  font-size: 25px;
+  padding: 50px 5px 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+.konten-contact form {
+  background-color: #6793a6;
+  width: 180px;
+  height: 140px;
+  padding: 10px;
+  position: absolute;
+  top: 1335px;
+  left: 393px;
+}
+
+.footer {
+  position: relative;
+  width: 1000px;
+  height: 30px;
+  background-color: #6793a6;
+  margin: auto;
+}
+
+.footer .foot {
+  position: absolute;
+  top: 5px;
+  left: 380px;
+}
